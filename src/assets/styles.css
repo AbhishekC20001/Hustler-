@@ -1,7 +1,7 @@
 .container {
   margin: 1em;
   min-width: 20em;
-  max-width: 40em;
+  max-width: 400em;
 }
 
 .task-meta {
@@ -30,4 +30,5 @@ input {
 
 .card {
   margin: 10px 0px 10px 0px;
+  background-color: rgb(0,255,255);
 }

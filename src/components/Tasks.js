@@ -1,15 +1,30 @@
 import Task from "./Task";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 function Tasks({ tasks, onTglStatus }) {
   return (
-    <div className="card">
-      <div className="row">
+        <Container>
         {tasks.map((task) => (
-          <div className="col-12" key={task.id}>
-            <Task task={task} onTglStatus={onTglStatus} />
-          </div>
+          <React.Fragment>
+
+          <Row>
+
+            <Col>
+              {task.col==1 && <Task task={task} onTglStatus={onTglStatus} />}
+            </Col>
+            <Col>
+              {task.col==2 && <Task task={task} onTglStatus={onTglStatus} />}
+            </Col>
+            <Col>
+              {task.col==3 && <Task task={task} onTglStatus={onTglStatus} />}
+            </Col>
+
+            </Row>
+
+          </React.Fragment>
         ))}
-      </div>
-    </div>
+        </Container>
+
   );
 }
 

@@ -12,13 +12,22 @@ function App() {
     {
       desc: "Learn React",
       id: 1,
-      date: "2021-01-03",
+      col: 1,
+      date: "wow",
       complete: false,
     },
     {
       desc: "Profit",
       id: 2,
-      date: "2021-01-05",
+      col: 2,
+      date: "yayyyyy",
+      complete: false,
+    },
+    {
+      desc: "Loss",
+      id: 3,
+      col: 3,
+      date: "naaaaa",
       complete: false,
     },
   ]);
@@ -36,10 +45,10 @@ function App() {
 
   const [showTaskEdit, setShowTaskEdit] = useState(false);
 
-  const onSaveTask = ({ desc, date }) => {
+  const onSaveTask = ({ desc, date, col }) => {
     console.log("saving tasks");
     setTasks([
-      { desc: desc, date: date, id: Date.now(), complete: false },
+      { desc: desc, date: date, id: Date.now(), col: col, complete: false },
       ...tasks,
     ]);
   };

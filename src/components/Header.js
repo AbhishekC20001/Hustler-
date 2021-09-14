@@ -4,12 +4,12 @@ function Header() {
       <nav className="nav">
         <div className="nav-left">
           <a className="brand" href="/">
-            Tasker
+            Hustler
           </a>
         </div>
         <div className="nav-right">
           <div className="tabs">
-            <a href="https://techformist.com">Techformist</a>
+            <a href="https://github.com/AbhishekC20001">Abhishek Chopra</a>
           </div>
         </div>
       </nav>
