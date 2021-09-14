@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hustler-/static/css/main.06b710e1.chunk.css",
+    "main.js": "/Hustler-/static/js/main.4de72f05.chunk.js",
+    "main.js.map": "/Hustler-/static/js/main.4de72f05.chunk.js.map",
+    "runtime-main.js": "/Hustler-/static/js/runtime-main.2fc05198.js",
+    "runtime-main.js.map": "/Hustler-/static/js/runtime-main.2fc05198.js.map",
+    "static/js/2.735275cf.chunk.js": "/Hustler-/static/js/2.735275cf.chunk.js",
+    "static/js/2.735275cf.chunk.js.map": "/Hustler-/static/js/2.735275cf.chunk.js.map",
+    "static/js/3.e7fb84ec.chunk.js": "/Hustler-/static/js/3.e7fb84ec.chunk.js",
+    "static/js/3.e7fb84ec.chunk.js.map": "/Hustler-/static/js/3.e7fb84ec.chunk.js.map",
+    "index.html": "/Hustler-/index.html",
+    "static/css/main.06b710e1.chunk.css.map": "/Hustler-/static/css/main.06b710e1.chunk.css.map",
+    "static/js/2.735275cf.chunk.js.LICENSE.txt": "/Hustler-/static/js/2.735275cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fc05198.js",
+    "static/js/2.735275cf.chunk.js",
+    "static/css/main.06b710e1.chunk.css",
+    "static/js/main.4de72f05.chunk.js"
+  ]
+}
